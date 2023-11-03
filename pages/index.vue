@@ -4,7 +4,7 @@
     </Head>
     <UContainer class="w-full md:w-1/2">
         <div v-for="qa in questions_answers">
-            <QA :question="qa.question" :answer="qa.answer" :difficulty="qa.difficulty" />
+            <Card :question="qa.question" :answer="qa.answer" :difficulty="qa.difficulty" />
         </div>
     </UContainer>
 </template>
